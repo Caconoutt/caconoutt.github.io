@@ -2,7 +2,7 @@
     caconoutt.github.io
 
 ## To access the personal page
-    How to open the page?? https://caconoutt.github.io/
+    https://caconoutt.github.io/
 
 ## How the page looks like?
 * Home page: include my education background and courses taken
