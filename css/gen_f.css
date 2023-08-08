@@ -3,14 +3,14 @@
  * It defines background, margin, font type, and font size
  */
 
-#header{
+div.header{
     background-color: #B28FCE;
     line-height: 1.625;
     font-size: 30px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    
+    margin: auto;
 }
 
 #page {
