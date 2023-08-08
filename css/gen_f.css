@@ -4,12 +4,22 @@
  */
 
 html {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.625;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #page {
-    background-color: #9B90C2;
+    background-color: #8B81C3;
+}
+
+#header{
+    background-color: #B28FCE;
+    line-height: 1.625;
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
 }
