@@ -21,17 +21,7 @@ a:active {
     color: #7DB9DE;
     text-decoration: underline;}
 
-p.header{
-    background-color: #B28FCE;
-    font-size: 30px;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin: 0
-    width 100%;
-    line-height: 1.625;
-    outline: none;
-}
+
 
 /* Text Emphasize */
 
@@ -42,6 +32,10 @@ li.h {
     text-align: center;
     border: 2px dotted #8A6BBE; 
     padding: 10px;
+}
+
+h1 {
+    text-align: center;
 }
 
 ul{
