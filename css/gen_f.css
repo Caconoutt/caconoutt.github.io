@@ -10,12 +10,11 @@
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
-/* Style of header */
- .header {
+/* Style of div.(header) */
+div{
     font-size: 30px;
     text-align: center;
-    background-color: #8A6BBE;}
-
+    background-color: #8B81C3;}
 /* Style of whole page */
  .page {
     background-color: #8B81C3;}
