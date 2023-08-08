@@ -12,9 +12,10 @@
 
 /* Style of div.header */
 div.header{
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
-    background-color: #8B81C3;}
+    background-color: #8B81C3;
+    min-width: 100px;}
 /* Style of div.main */
 div.main{
     background-color: #8B81C3;
@@ -22,4 +23,9 @@ div.main{
 /* Style of whole page */
  .page {
     background-color: #8B81C3;}
+body {
+    margin: auto;
+    width: 640px;
+    padding: 50 px;
+}
 
