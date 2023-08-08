@@ -30,16 +30,15 @@ li.btn {
     display: inline;
     margin-right: 20px;
     text-align: center;
-    border: 8px dotted white; 
+    border: 6px dotted white; 
     padding: 10px;}
 
 ul{
     list-style-type: circle;}
 
 /* Image */
-img {
+figure {
     display: block;
-    margin: Opx auto;
-    width: 250px;
-    height: 250px;
-}
+    margin: Opx auto;}
+img {width: 250px;
+    height: 250px;}
