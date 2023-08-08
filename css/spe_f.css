@@ -30,7 +30,6 @@ p.header{
     margin: 0
     width 100%;
     line-height: 1.625;
-    position: fixed;
     outline: none;
 }
 
@@ -39,12 +38,15 @@ p.header{
 /* List*/
 li.h {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
     text-align: center;
+    border: 2px dotted #8A6BBE; 
+    padding: 10px;
 }
 
 ul{
     list-style-type: circle;
+    text-align: center;
 }
 
 img {
