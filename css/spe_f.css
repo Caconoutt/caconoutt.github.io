@@ -5,15 +5,15 @@
  */
 
  /* Address */
- a:link {
+a:link {
     color: #FBE251;
     text-decoration: none;}
 
- a:visited {
+a:visited {
     color: #FBE251;
     text-decoration: none;}
 
- a:hover {
+a:hover {
     color: #7DB9DE;
     text-decoration: underline;}
 
