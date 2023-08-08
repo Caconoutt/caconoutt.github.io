@@ -39,3 +39,8 @@ li.h {
     margin-right: 10px;
     text-align: center;
 }
+
+figure{
+    margin: 2rem 0;
+    position: relative;
+}
