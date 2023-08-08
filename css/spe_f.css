@@ -4,4 +4,13 @@
  
  */
 
- 
+ a:link{
+    color: #E0B933;
+ }
+ a:visited{
+    color: #E0B933;
+ }
+ a:hover{
+    color: #7DB9DE;
+    text-decoration: underline;
+ }
