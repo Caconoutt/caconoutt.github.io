@@ -26,7 +26,7 @@ a:active {
 /* Text Emphasize */
 
 /* List*/
-li.h {
+.header {
     display: inline;
     margin-right: 20px;
     text-align: center;
@@ -34,13 +34,8 @@ li.h {
     padding: 10px;
 }
 
-h1 {
-    text-align: center;
-}
-
 ul{
     list-style-type: circle;
-    text-align: center;
 }
 
 img {
