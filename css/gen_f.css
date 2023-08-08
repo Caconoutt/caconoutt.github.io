@@ -5,7 +5,7 @@
 
 /* Fixed style */
  html {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.625;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
@@ -18,14 +18,20 @@ div.header{
     min-width: 100px;}
 /* Style of div.main */
 div.main{
-    background-color: #8B81C3;
-    border: 20px;}
-/* Style of whole page */
- .page {
-    background-color: #8B81C3;}
-body {
     margin: auto;
     width: 640px;
     padding: 50 px;
-}
+    background-color: #8B81C3;
+    border: 20px;}
+/* Style of div.pic */
+div.pic{
+    font-size: 12px;
+    text-align: center;
+    background-color: #8B81C3;
+    min-width: 100px;}
+
+/* Style of whole page */
+ .page {
+    background-color: #8B81C3;}
+
 
