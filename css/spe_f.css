@@ -58,3 +58,8 @@ hr {
     border-width: 0;
     background-color: #FBE251;
 }
+
+/* Title */
+h4 {
+    font-style: italic;
+    color:#7DB9DE;}

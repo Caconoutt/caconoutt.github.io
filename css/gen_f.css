@@ -18,6 +18,7 @@ div.header{
     min-width: 100px;}
 /* Style of div.main */
 div.main{
+    font-size: 18px;
     margin: auto;
     width: 640px;
     padding: 50 px;
