@@ -24,7 +24,7 @@ li.btn {
     margin-right: 30px;
     text-align: center;
     padding: 6px;}
-
+    /* Underline Animation */
 .hover-under{
     display: inline-block;
     position: relative;
@@ -32,7 +32,7 @@ li.btn {
 .hover-under::after {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 90%;
     transform: scaleX(0);
     height:2px;
     bottom: 0;
