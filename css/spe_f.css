@@ -11,7 +11,7 @@ a:link, a:visited {
 
 a:hover, a:active {
     color: #7DB9DE;
-    text-decoration: underline;}
+    text-decoration: none;}
 
 /* Text Emphasize */
 .emp {
@@ -28,7 +28,7 @@ li.btn {
 .hover-under{
     display: inline-block;
     position: relative;
-    color:#7DB9DE;}
+    color:#FBE251;}
 .hover-under::after {
     content: '';
     position: absolute;
