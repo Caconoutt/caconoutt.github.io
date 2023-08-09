@@ -37,11 +37,12 @@ li.btn {
     height:2px;
     bottom: 0;
     left:0;
+    background-color: #7DB9DE;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;}
 .hover-under:hover::after{
     transform: scaleX(1);
-    transform-origin: bottom right;}
+    transform-origin: bottom left;}
 
 ul{
     list-style-type: circle;}
