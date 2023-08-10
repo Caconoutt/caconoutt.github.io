@@ -48,7 +48,7 @@ ul{
     list-style-type: circle;}
 
 /* Image */
-img {width: 280px;
+img.pic {width: 280px;
     height: 280px;}
 
 /* Horizontal Line*/
