@@ -1,7 +1,5 @@
-/**
- * This is for specific format of text and images
- * It defines 
- 
+/*
+ * This is for specific format of text and images 
  */
 
 /* Address */
@@ -18,7 +16,7 @@ a:hover, a:active {
     font-style: bold;
     color:#FBE251;}
 
-/* List */
+/* Line Animation */
 li.btn {
     display: inline;
     margin-right: 30px;
@@ -44,8 +42,11 @@ li.btn {
     transform: scaleX(1);
     transform-origin: bottom left;}
 
+/* List */
 ul{
-    list-style-type: circle;}
+    list-style-type: circle;
+    margin: 0px;
+    padding: 0px 0px 0px 0px}
 
 /* Image */
 img.pic {width: 280px;
