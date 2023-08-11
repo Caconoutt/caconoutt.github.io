@@ -5,9 +5,26 @@
     <title>Camilla Xue|Experience</title>
     <link href="css/gen_f.css" type="text/css" rel="stylesheet" />
     <link href="css/spe_f.css" type="text/css" rel="stylesheet" />
-    <script src="script.js"></script>
+    <!--script src="script.js"></script-->
 </head>
+<script>
+    $(document).on(
+    "scroll", function(){
+    var pageTop = $(document).scrollTop();
+    var pageBottom = pageTop + $(window).height();
+    var tags = $(".tag");
 
+    for (var i = 0; i < tags.length; i++){
+        var tag = tags[i];
+        if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible");
+        }
+        else{
+            $(tag).removeClass("visible");
+        }
+    }
+    });
+</script>
 <body class="page">
 
 <div class ="header">
