@@ -1,21 +1,7 @@
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
 .full-view{
     text-align: center;
     height: 100vh;
     width: 100vw;
-}
-
-
-.t {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;  
 }
 
 .animated{
