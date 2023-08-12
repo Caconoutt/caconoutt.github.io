@@ -64,3 +64,9 @@ hr {
 h4 {
     font-style: italic;
     color: white;}
+
+FadeInSection{
+    height:100vh;
+    text-align: center;
+    background-color: #7DB9DE;
+}
