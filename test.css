@@ -13,8 +13,7 @@ body{
 }
 
 .animated{
-    width: 400px;
-    height: 400px;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     color: white;
