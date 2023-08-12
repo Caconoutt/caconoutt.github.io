@@ -69,8 +69,11 @@ h4 {
 .t {
     display: flex;
     justify-content: center;
-    height:100vh;
     background-color: #FBE251;
+}
+
+.animated{
+    height: 100vh;
 }
 
 .fadeIn{
