@@ -17,14 +17,15 @@ body{
     height: 400px;
     background-position: center;
     background-size: cover;
-    background-image: url("images/p1.JPG");
+    color: white;
+    content: "Hello";
 }
 
 .fadeIn{
-    -webkit-animation: fadeIn 1.2s both;
-    -moz-animation: fadeIn 1.2s both;
-    -o-animation: fadeIn 1.2s both;
-    animation: fadeIn 1.2s both;
+    -webkit-animation: fadeIn 2.0s both;
+    -moz-animation: fadeIn 2.0s both;
+    -o-animation: fadeIn 2.0s both;
+    animation: fadeIn 2.0s both;
 }
 @-webkit-keyframes fadeIn {  
     0%{
