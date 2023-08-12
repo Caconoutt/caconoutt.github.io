@@ -1,4 +1,10 @@
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
 
+/*
 .t {
     height: 100vh;
     width: 100vw;
@@ -58,3 +64,4 @@
         transform: translateY(0);
     }
 }
+*/
