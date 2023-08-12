@@ -1,3 +1,6 @@
+import React from 'react';
+import './css/spe_f.css';
+
 function FadeInSection(props){
     const [isVisible, setVisible] = React.useState(true);
     const domRef = React.useRef();
