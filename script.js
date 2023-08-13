@@ -8,7 +8,7 @@ const observer = new IntersectionObserver(entries => {
     })
 })
 
-observer.observe(document.querySelector(".full-view"));
+observer.observe(document.querySelector(".container"));
 /*
 // Function to check if an element is in the viewport
 function isInViewport(element) {
