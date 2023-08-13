@@ -1,3 +1,15 @@
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            document.querySelectorAll(".animated")[0].classList.add("fadeIn");
+            document.querySelectorAll(".animated")[1].classList.add("fadeIn");
+            document.querySelectorAll(".animated")[2].classList.add("fadeIn");
+        }
+    })
+})
+
+observer.observe(document.querySelector(".full-view"));
+/*
 // Function to check if an element is in the viewport
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
@@ -21,7 +33,7 @@ function handleScroll() {
 
 // Attach the scroll event listener
 window.addEventListener('scroll', handleScroll);
-
+*/
 /*
 import React from 'react';
 import './css/spe_f.css';
