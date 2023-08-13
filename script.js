@@ -1,3 +1,6 @@
+
+/*
+//not work on fade in
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if(entry.isIntersecting){
@@ -9,6 +12,8 @@ const observer = new IntersectionObserver(entries => {
 })
 
 observer.observe(document.querySelector(".container"));
+*/
+
 /*
 // Function to check if an element is in the viewport
 function isInViewport(element) {
