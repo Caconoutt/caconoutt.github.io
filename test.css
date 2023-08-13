@@ -1,13 +1,17 @@
-.full-view{
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
-}
 
+.one{
+    height: 720px;
+    text-align: center;
+}
 .animated{
     background-position: center;
     background-size: cover;
     color: white;
+}
+.two{
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
 }
 .two::after{
     content: "Element 2";
