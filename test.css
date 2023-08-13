@@ -2,8 +2,7 @@ section{
     font-size: 18px;
     font-style: italic;
     font-weight: bold;
-    height: 200px;
-    width: 400px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +26,7 @@ section{
     text-decoration: none;
     text-shadow: 0;
     width: 13px;
-    height: 13px;
+    height: 200px;
     border-bottom: 2px solid #fff;
     border-right: 2px solid #fff;
     z-index: 9;
