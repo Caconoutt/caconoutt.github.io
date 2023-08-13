@@ -19,12 +19,19 @@ body{
 
 .banner-text{
     position: absolute;
+    top: 60%;
+    left: 22%;
+    text-transform: uppercase;
 }
 
 .content{
     width: 1170px;
     margin: auto;
     text-align: center;
+}
+.content h2{
+    font-size: 50px;
+    text-transform: uppercase;
 }
 /*.one{
     height: 720px;
