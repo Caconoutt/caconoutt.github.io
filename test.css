@@ -9,7 +9,9 @@
     background-size: cover;
     color: white;
 }
-
+.two::after{
+    content: "Element 2";
+}
 .fadeIn{
     -webkit-animation: fadeIn 1.6s both;
     -moz-animation: fadeIn 1.6s both;
