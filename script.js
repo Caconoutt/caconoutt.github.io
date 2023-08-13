@@ -4,6 +4,7 @@ const observer = new IntersectionObserver(entries => {
             document.querySelectorAll(".animated")[0].classList.add("fadeIn");
             document.querySelectorAll(".animated")[1].classList.add("fadeIn");
             document.querySelectorAll(".animated")[2].classList.add("fadeIn");
+            document.querySelectorAll(".animated")[3].classList.add("fadeIn");
         }
     })
 })
