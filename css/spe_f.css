@@ -44,9 +44,8 @@ li.btn {
 
 /* List */
 ul{
-    list-style-type: circle;
-    margin: 0px;
-    padding: 0px 0px 0px 0px}
+    top: 10px;
+    list-style-type: circle;}
 
 /* Image */
 img.pic {width: 280px;
