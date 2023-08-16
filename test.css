@@ -16,7 +16,7 @@ html {
  * text should be centered expect the two logos at the right corner
  */
 div.header{
-    margin: auto;
+    word-spacing: 16px;
     text-align: center;
     position: fixed;
     top: 10px;}
@@ -79,7 +79,7 @@ a:hover, a:active {
     color:#FBE251;}
 
 /* Line Animation */
-li.btn {
+.btn {
     display: inline;
     margin-right: 30px;
     text-align: center;
@@ -92,7 +92,7 @@ li.btn {
 .hover-under::after {
     content: '';
     position: absolute;
-    width: 90%;
+    /*width: 90%;*/
     transform: scaleX(0);
     height:2px;
     bottom: 0;
@@ -121,8 +121,8 @@ img.logo{
     height: 30px;}
 /* defines the size of title*/
 img.title{
-    width:720px;
-    height: 225px;}
+    width:739px;
+    height: 199px;}
 
 /* Horizontal Line*/
 hr {
