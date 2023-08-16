@@ -11,13 +11,24 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #8B81C3;}
 
-/* Style of div.header */
+/* Header of the page should be:
+ * fixed when user scroll down
+ * text should be centered expect the two logos at the right corner
+ */
 div.header{
     margin: auto;
     text-align: center;
     position: fixed;
     top: 10px;}
 
+/* Title:
+ * at the center of the page
+ * go away when scroll
+ */
+div.title{
+    margin:auto;
+    text-align: center;
+}
 
 /* Style of div.main */
 div.main{
@@ -32,8 +43,6 @@ div.main{
  */
 div.pic{
     position: fixed;
-    height: 280px;
-    width: 280px;
     right: 20%;
     top: 50%;}
 
@@ -110,6 +119,7 @@ img.pic {
 img.logo{
     width:30px;
     height: 30px;}
+/* defines the size of title*/
 img.title{
     width:720px;
     height: 225px;}
