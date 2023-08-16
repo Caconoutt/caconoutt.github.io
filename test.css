@@ -14,10 +14,9 @@ html {
 /* Style of div.header */
 div.header{
     margin: auto;
-    width: 50%;
+    text-align: center;
     position: fixed;
-    top: 10px;
-    min-width: 100px;}
+    top: 10px;}
 
 
 /* Style of div.main */
@@ -33,9 +32,10 @@ div.main{
  */
 div.pic{
     position: fixed;
-    right: 100px;
-    top: 500px;
-    min-width: 100px;}
+    height: 280px;
+    width: 280px;
+    right: 20%;
+    top: 50%;}
 
 section{
     height: 180px;
