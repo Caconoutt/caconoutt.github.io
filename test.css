@@ -29,19 +29,18 @@ div.header{
  */
 div.title{
     border: 2px blue solid;
-    height:199px;
+    height:180px;
     position:relative;
     text-align: center;
 }
 
 /* Style of div.main */
 div.main{
+    border: 2px paleturquoise solid;
     font-size: 18px;
-    margin: auto;
-    width: 640px;
-    padding: 30 px;
-    background-color: #8B81C3;
-    border: 20px;}
+    position: fixed;
+    width: 60%;
+    left: 10%;}
 /* Style of picture inserted on the web
  * We want the pic to be in a fixed position even when user scrolling page
  */
