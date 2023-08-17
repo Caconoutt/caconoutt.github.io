@@ -60,12 +60,12 @@ section{
 
 #logo1{
     display: flex;
-    border: 2px yello solid;
+    border: 2px yellow solid;
     position:fixed;
     top:10px;
     height: 35px;
     width: 35px;
-    text-align: center;
+    align-items: center;
     right: 10px;
 }
 #logo2{
@@ -74,7 +74,7 @@ section{
     position:fixed;
     height: 35px;
     width: 35px;
-    text-align: center;
+    align-items: center;
     top:10px;
     right: 60px;
 }
