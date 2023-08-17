@@ -59,7 +59,8 @@ section{
 }
 
 #logo1{
-    border: 2px blue solid;
+    display: flex;
+    border: 2px yello solid;
     position:fixed;
     top:10px;
     height: 35px;
@@ -68,7 +69,8 @@ section{
     right: 10px;
 }
 #logo2{
-    border: 2px green solid;
+    display: flex;
+    border: 2px yellowgreen solid;
     position:fixed;
     height: 35px;
     width: 35px;
