@@ -31,13 +31,17 @@ div.header{
  * at the center of the page
  * go away when scroll
  */
-div.title{
+#title{
     width: 100%;
     border: 2px pink solid;
     height:180px;
     position:absolute;
     top: 5%;
     text-align: center;
+}
+#title img{
+    width:739px;
+    height: 199px;
 }
 
 
@@ -82,7 +86,7 @@ div.title{
     
     position:fixed;
     left: 10px;
-    top:20px;
+    top:10px;
 
     justify-content: center;
     align-items: center;
@@ -117,7 +121,7 @@ div.title{
     font-size: 18px;
     position: fixed;
     width: 50%;
-    height: 70%;
+    height: 320px;
     top: 30%;
     left: 10%;}
 /* Specific CSS*/
@@ -175,11 +179,12 @@ img.logo{
     width:30px;
     height: 30px;}
 
-*/
-/* defines the size of title*/
 #title{
     width:739px;
     height: 199px;}
+
+*/
+
 
 /* Horizontal Line*/
 hr {
