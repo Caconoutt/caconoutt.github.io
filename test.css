@@ -10,6 +10,10 @@ html {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #8B81C3;}
+body{
+    margin: 0;
+    padding: 0;
+}
 
 /* Header of the page should be:
  * fixed when user scroll down
@@ -53,18 +57,14 @@ section{
     height: 180px;
 }
 
-div.logo1{
-    height: 30px;
-    width: 30px;
-    border: 2px yellow solid;
+#logo1{
+    border: 2px pink solid;
     position:absolute;
     bottom: 30%;
     text-align: center;
     right: 10px;
 }
-div.logo2{
-    height: 30px;
-    width: 30px;
+#logo2{
     border: solid;
     position:absolute;
     text-align: center;
@@ -127,7 +127,7 @@ img.logo{
     width:30px;
     height: 30px;}
 /* defines the size of title*/
-img.title{
+#title{
     width:739px;
     height: 199px;}
 
