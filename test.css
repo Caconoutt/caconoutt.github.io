@@ -87,12 +87,10 @@ a:hover, a:active {
     /* Underline Animation */
 .hover-under{
     display: inline-block;
-    position: relative;
     color:#FBE251;}
 .hover-under::after {
     content: '';
-    position: absolute;
-    /*width: 90%;*/
+    width: 100%;
     transform: scaleX(0);
     height:2px;
     bottom: 0;
