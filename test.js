@@ -2,4 +2,4 @@ setTimeout(function(){
     setInterval(function(){
         $('#title').attr('src',$('#title').attr('src'))
     },1)
-}, 5000)
+}, 4000)

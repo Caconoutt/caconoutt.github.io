@@ -32,9 +32,9 @@ div.header{
  * go away when scroll
  */
 div.title{
-    border: 2px blue solid;
+    border: 2px yellow solid;
     height:180px;
-    position:relative;
+    position:fixed;
     text-align: center;
 }
 
