@@ -28,6 +28,7 @@ div.header{
  * go away when scroll
  */
 div.title{
+    border: solid;
     margin:auto;
     text-align: center;
 }
@@ -44,6 +45,7 @@ div.main{
  * We want the pic to be in a fixed position even when user scrolling page
  */
 div.pic{
+    border: solid;
     position: fixed;
     right: 10%;}
 
