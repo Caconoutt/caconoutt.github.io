@@ -36,6 +36,7 @@ div.title{
     border: 2px pink solid;
     height:180px;
     position:absolute;
+    top: 5%;
     text-align: center;
 }
 
