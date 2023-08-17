@@ -16,6 +16,7 @@ html {
  * text should be centered expect the two logos at the right corner
  */
 div.header{
+    width: 100%;
     border: solid;
     word-spacing: 16px;
     position: fixed;
