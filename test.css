@@ -94,8 +94,8 @@ div.header{
     align-items: center;
     display: flex; }
 #logo3 img{
-    height: 30px;
-    width: 116px;
+    height: 45px;
+    width: 174px;
 }
 
 /* Style of picture inserted on the web
@@ -119,7 +119,7 @@ div.header{
     height: 280px;}
 /* Style of div.main */
 #main{
-    /*border: 2px paleturquoise solid;*/
+    border: 2px paleturquoise solid;
     font-size: 18px;
     position: fixed;
     width: 50%;
