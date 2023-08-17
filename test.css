@@ -50,10 +50,11 @@ div.main{
  * We want the pic to be in a fixed position even when user scrolling page
  */
 #pic{
-    border: solid;
+    border: 2px palegoldenrod solid;
     height: 400px;
     width: 400px;
     position: fixed;
+    top: 50%;
     right: 10%;
 
     justify-content: center;
@@ -68,13 +69,13 @@ div.main{
 
 
 #logo1{
-    border: 1px yellow solid;
+    border: 1px blue solid;
     height: 35px;
     width: 35px;
     
     position:fixed;
     right: 10px;
-    top:10px;
+    top:15px;
 
     justify-content: center;
     align-items: center;
@@ -89,7 +90,7 @@ div.main{
     
     position:fixed;
     right: 60px;
-    top:10px;
+    top:15px;
 
     justify-content: center;
     align-items: center;
