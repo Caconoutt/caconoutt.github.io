@@ -39,34 +39,7 @@ div.title{
     text-align: center;
 }
 
-/* Style of div.main */
-#main{
-    border: 2px paleturquoise solid;
-    font-size: 18px;
-    position: fixed;
-    width: 55%;
-    height: 40%;
-    top: 15%;
-    left: 10%;}
-/* Style of picture inserted on the web
- * We want the pic to be in a fixed position even when user scrolling page
- */
-#pic{
-    border: 2px palegoldenrod solid;
-    height: 400px;
-    width: 400px;
-    position: fixed;
-    top: 15%;
-    right: 10%;
 
-    justify-content: center;
-    align-items: center;
-    display: flex;}
-#pic img{
-    margin: 10px;
-    padding: 10px;
-    width: 280px;
-    height: 280px;}
 
 
 #logo1{
@@ -76,7 +49,7 @@ div.title{
     
     position:fixed;
     right: 10px;
-    top:20px;
+    top:16px;
 
     justify-content: center;
     align-items: center;
@@ -91,7 +64,7 @@ div.title{
     
     position:fixed;
     right: 60px;
-    top:20px;
+    top:18px;
 
     justify-content: center;
     align-items: center;
@@ -100,6 +73,52 @@ div.title{
     height: 30px;
     width: 30px;}
 
+
+#logo3{
+    border: 1px skyblue solid;
+    height: 135px;
+    width: 35px;
+    
+    position:fixed;
+    left: 10px;
+    top:20px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+#logo3 img{
+    height: 116px;
+    width: 30px;
+}
+
+/* Style of picture inserted on the web
+ * We want the pic to be in a fixed position even when user scrolling page
+ */
+ #pic{
+    border: 2px palegoldenrod solid;
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    top: 20%;
+    right: 10%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;}
+#pic img{
+    margin: 10px;
+    padding: 10px;
+    width: 280px;
+    height: 280px;}
+/* Style of div.main */
+#main{
+    border: 2px paleturquoise solid;
+    font-size: 18px;
+    position: fixed;
+    width: 55%;
+    height: 40%;
+    top: 25%;
+    left: 10%;}
 /* Specific CSS*/
 
 /* Address */
