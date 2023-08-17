@@ -49,7 +49,7 @@ div.title{
     
     position:fixed;
     right: 10px;
-    top:16px;
+    top:18px;
 
     justify-content: center;
     align-items: center;
@@ -87,8 +87,8 @@ div.title{
     align-items: center;
     display: flex; }
 #logo3 img{
-    height: 116px;
-    width: 30px;
+    height: 30px;
+    width: 116px;
 }
 
 /* Style of picture inserted on the web
@@ -99,7 +99,7 @@ div.title{
     height: 400px;
     width: 400px;
     position: fixed;
-    top: 20%;
+    top: 25%;
     right: 10%;
 
     justify-content: center;
