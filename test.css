@@ -28,7 +28,8 @@ div.header{
  * go away when scroll
  */
 div.title{
-    border: solid;
+    border: 2px blue solid;
+    position:relative;
     text-align: center;
 }
 
