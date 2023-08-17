@@ -49,14 +49,23 @@ div.main{
 /* Style of picture inserted on the web
  * We want the pic to be in a fixed position even when user scrolling page
  */
-div.pic{
+#pic{
     border: solid;
+    height: 400px;
+    width: 400px;
     position: fixed;
-    right: 10%;}
+    right: 10%;
 
-section{
-    height: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;}
+#pic img{
+    margin: 10px;
+    padding: 10px;
+    width: 280px;
+    height: 280px;
 }
+
 
 #logo1{
     border: 1px yellow solid;
