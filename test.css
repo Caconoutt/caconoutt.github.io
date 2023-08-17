@@ -59,7 +59,7 @@ section{
 }
 
 #logo1{
-    border: 2px red solid;
+    border: 1px yellow solid;
     height: 35px;
     width: 35px;
     
@@ -71,10 +71,10 @@ section{
     align-items: center;
     display: flex;}
 #logo1 img{
-    height: 35px;
-    width: 35px;}
+    height: 30px;
+    width: 30px;}
 #logo2{
-    border: 2px paleturquoise solid;
+    border: 1px green solid;
     height: 35px;
     width: 35px;
     
@@ -86,8 +86,8 @@ section{
     align-items: center;
     display: flex;}
 #logo2 img{
-    height: 35px;
-    width: 35px;}
+    height: 30px;
+    width: 30px;}
 
 /* Specific CSS*/
 
