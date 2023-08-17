@@ -54,11 +54,13 @@ section{
 }
 
 .logo1{
-    position:fixed;
+    position:absolute;
+    bottom: 30%;
     right: 10px;
 }
 .logo2{
-    position:fixed;
+    position:absolute;
+    bottom: 30%;
     right: 50px;
 }
 
