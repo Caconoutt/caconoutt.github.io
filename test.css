@@ -77,8 +77,8 @@ div.title{
 
 #logo3{
     border: 1px skyblue solid;
-    height: 135px;
-    width: 35px;
+    height: 35px;
+    width: 140px;
     
     position:fixed;
     left: 10px;
@@ -100,7 +100,7 @@ div.title{
     height: 400px;
     width: 400px;
     position: fixed;
-    top: 25%;
+    top: 30%;
     right: 10%;
 
     justify-content: center;
@@ -116,9 +116,9 @@ div.title{
     border: 2px paleturquoise solid;
     font-size: 18px;
     position: fixed;
-    width: 55%;
-    height: 40%;
-    top: 25%;
+    width: 50%;
+    height: 70%;
+    top: 30%;
     left: 10%;}
 /* Specific CSS*/
 
