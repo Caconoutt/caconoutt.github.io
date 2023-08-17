@@ -53,12 +53,14 @@ section{
     height: 180px;
 }
 
-.logo1{
+div.logo1{
+    border: solid;
     position:absolute;
     bottom: 30%;
     right: 10px;
 }
-.logo2{
+div.logo2{
+    border: solid;
     position:absolute;
     bottom: 30%;
     right: 50px;
