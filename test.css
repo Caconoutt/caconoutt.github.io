@@ -29,6 +29,7 @@ div.header{
  */
 div.title{
     border: 2px blue solid;
+    height:199;
     position:relative;
     text-align: center;
 }
