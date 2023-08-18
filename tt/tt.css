@@ -1,7 +1,7 @@
 html{
     height: 1.618;
-    background-color: #8B81C3;
-    color: white;}
+    background-color: yellow;
+    color: black;}
 body{
     font-family: sans-serif;}
 
@@ -44,6 +44,8 @@ body{
 }
 .section-body{
     display: flex;
+    position: relative;
+    right: 10%;
     align-items: center;}
 
 .section-text{
