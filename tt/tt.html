@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Change pic</title>
+        <link rel="stylesheet" href="tt.css">
+    </head>
+
+    <body>
+        <div class="background"></div>
+        <!--Page1-->
+        <div class="section">
+            <div class="section-img">
+                <div class="section-img-inner" style="background-color: aqua;"></div>
+            </div>
+        </div>
+        <div class="section-body">
+            <div class="section-text">
+                <h2>SHORT BIOGRAPHY</h2>
+                <p></p>
+            </div>
+        </div>
+        <!--Page2-->
+        <div class="section">
+            <div class="section-img">
+                <div class="section-img-inner" style="background-color: aliceblue;"></div>
+            </div>
+        </div>
+        <div class="section-body">
+            <div class="section-text">
+                <h2>SHORT BIO2</h2>
+                <p></p>
+            </div>
+        </div>
+        <!--Page3-->
+        <div class="section">
+            <div class="section-img">
+                <div class="section-img-inner" style="background-color: indianred;"></div>
+            </div>
+        </div>
+        <div class="section-body">
+            <div class="section-text">
+                <h2>SHORT BIO3</h2>
+                <p></p>
+            </div>
+        </div>
+        <!--Page4-->
+        <div class="section">
+            <div class="section-img">
+                <div class="section-img-inner" style="background-color: palegreen;"></div>
+            </div>
+        </div>
+        <div class="section-body">
+            <div class="section-text">
+                <h2>SHORT BIO4</h2>
+                <p></p>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script>
+            $(window).scroll(function(){
+                let o=$(window), i=$("body"),t=$(".section"),s=o.scrollTop()+o.height()/3;
+                t.each(function(){
+                    $(this).position().top<=s&&$(this).position().top+$(this).height()>s&&(i.
+                    removeClass(function(o,i){
+                        return i.match(/(^|\s)color-\s+/g)||[].join(" ")}
+                    ),$(".section").removeClass("active"),$(this).addClass("active"))}
+                )}
+            ).scroll();
+        </script>
+    </body>
+
+
+
+</html>
