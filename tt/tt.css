@@ -38,8 +38,9 @@ body{
     align-items: center;}
 
 .section-text{
+    width: 50vw;
     position: relative;
-    right:80%;
+    right:90%;
     padding: 5vw;}
 
 .section.active .section-img-inner{
@@ -47,7 +48,10 @@ body{
     background-position: 50% 50%;
     filter: blur(0);}
 
-h2{
+h3{
+    position: fixed;
+    top:10%;
+    right: 90%;
     font-size: 3vw;
     margin-bottom: 0.5em;
     margin-top: 0;}
