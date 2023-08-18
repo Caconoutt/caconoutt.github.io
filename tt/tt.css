@@ -38,6 +38,8 @@ body{
     align-items: center;}
 
 .section-text{
+    position: relative;
+    right:80%;
     padding: 5vw;}
 
 .section.active .section-img-inner{
