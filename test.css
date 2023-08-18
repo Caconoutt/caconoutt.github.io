@@ -135,6 +135,30 @@ body{
     left: 10%;
     overflow-y: scroll;}
 
+.pic_c{
+    border: 2px palegoldenrod solid;
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    top: 20%;
+    right: 10%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;}
+.pic_c img{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 400px;}
+
+p{
+    font-size: 18px;
+    width: 30%;
+    top: 20%;
+    left: 10%;
+}
+
 /* Specific CSS*/
 
 /* Address 
