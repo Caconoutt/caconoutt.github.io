@@ -47,8 +47,6 @@ div.header{
 }
 
 
-
-
 #logo1{
     /*border: 1px blue solid;*/
     height: 35px;
@@ -87,7 +85,7 @@ div.header{
     width: 140px;
     
     position:fixed;
-    left: 10px;
+    left: 20px;
     top:10px;
 
     justify-content: center;
@@ -125,7 +123,14 @@ div.header{
     width: 50%;
     height: 450px;
     top: 30%;
-    left: 10%;}
+    left: 10%;
+    overflow: hidden;}
+
+
+
+p{
+    overflow-y: scroll;
+}
 /* Specific CSS*/
 
 /* Address */
