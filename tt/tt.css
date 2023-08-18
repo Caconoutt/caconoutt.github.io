@@ -1,6 +1,6 @@
 html{
     height: 1.618;
-    background-color: yellow;
+    background-color: aqua;
     color: black;}
 body{
     font-family: sans-serif;}
@@ -24,13 +24,11 @@ body{
 .section-img{
     position: relative;
     display: flex;
-    height: 300px;
-    width: 300px;
 }
 .section-img-inner{
     height: 300px;
     position: fixed;
-    left: 10%;
+    left: 5%;
     width: 40%;
     top: 30%;
     mix-blend-mode: multiply;
@@ -44,8 +42,6 @@ body{
 }
 .section-body{
     display: flex;
-    position: relative;
-    right: 10%;
     align-items: center;}
 
 .section-text{
