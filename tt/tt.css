@@ -1,23 +1,16 @@
 html{
     height: 1.618;
-    background-color: aqua;
-    color: black;}
+    background-color: #8B81C3;
+    color: white;}
 body{
     font-family: sans-serif;}
 
-.background{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100vh;
-    z-index: 1;}
 
 .section{
     display: flex;
-    min-height: 300px;
+    min-height: 400px;
     position: relative;
-    z-index: 2;}
+    z-index: 1;}
 .section > *{
     width: 50%;}
 
@@ -26,9 +19,9 @@ body{
     display: flex;
 }
 .section-img-inner{
-    height: 300px;
+    height: 400;
     position: fixed;
-    left: 5%;
+    right: 5%;
     width: 40%;
     top: 30%;
     mix-blend-mode: multiply;
