@@ -19,7 +19,7 @@ body{
  * fixed when user scroll down
  * text should be centered expect the two logos at the right corner
  */
-div.header{
+#header{
     width: 100%;
     /*border: solid;*/
     word-spacing: 16px;
@@ -117,7 +117,7 @@ div.header{
     height: 280px;}
 /* Style of div.main */
 #main{
-    border: 2px palegoldenrod solid;
+    border: 2px palevioletred solid;
     font-size: 18px;
     position: fixed;
     width: 50%;
@@ -132,14 +132,17 @@ p{
 }
 /* Specific CSS*/
 
-/* Address */
+/* Address 
 a:link, a:visited {
     color: #FBE251;
     text-decoration: none;}
 
 a:hover, a:active {
     color: #7DB9DE;
-    text-decoration: none;}
+    text-decoration: none;}*/
+a{
+    text-decoration: none;
+}
 
 /* Text Emphasize */
 .emp {
@@ -152,22 +155,26 @@ a:hover, a:active {
     margin-right: 30px;
     padding: 6px;}*/
     /* Underline Animation */
-.hover-under{
+.hunder {
     display: inline-block;
-    color:#FBE251;}
-.hover-under::after {
-    content: '';
-    width: 100%;
-    transform: scaleX(0);
-    height:2px;
-    bottom: 0;
-    left:0;
-    background-color: #7DB9DE;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;}
-.hover-under:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left;}
+    position: relative;
+    color: #FBE251;}
+    
+.hunder::after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #7DB9DE;
+transform-origin: bottom right;
+transition: transform 0.25s ease-out;}
+
+.hunder:hover::after {
+transform: scaleX(1);
+transform-origin: bottom left;}
 
 /* List */
 ul{
