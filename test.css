@@ -125,11 +125,16 @@ body{
     top: 30%;
     left: 10%;}
 
+#main2{
+    border: 2px palegreen solid;
+    font-size: 18px;
+    position: fixed;
+    width: 50%;
+    height: 450px;
+    top: 02%;
+    left: 10%;
+    overflow-y: scroll;}
 
-
-p{
-    overflow-y: scroll;
-}
 /* Specific CSS*/
 
 /* Address 
