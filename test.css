@@ -85,7 +85,7 @@ div.header{
     width: 140px;
     
     position:fixed;
-    left: 20px;
+    left: 25px;
     top:10px;
 
     justify-content: center;
@@ -117,14 +117,13 @@ div.header{
     height: 280px;}
 /* Style of div.main */
 #main{
-    border: 2px paleturquoise solid;
+    border: 2px palegoldenrod solid;
     font-size: 18px;
     position: fixed;
     width: 50%;
     height: 450px;
     top: 30%;
-    left: 10%;
-    overflow: hidden;}
+    left: 10%;}
 
 
 
@@ -148,10 +147,10 @@ a:hover, a:active {
     color:#FBE251;}
 
 /* Line Animation */
-.btn {
+/*.btn {
     display: inline;
     margin-right: 30px;
-    padding: 6px;}
+    padding: 6px;}*/
     /* Underline Animation */
 .hover-under{
     display: inline-block;
