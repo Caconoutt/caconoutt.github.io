@@ -16,12 +16,14 @@ body{
  */
 #header{
     width: 100%;
-    border: 2px pink solid;
-    height: 10%;
+    border: 2px yellow solid;
+    height: 20%;
     word-spacing: 16px;
     position: fixed;
     text-align: center;
-    top: 10px;}
+    top: 10px;
+    background-color: #8B81C3;
+    display: block;}
 
 /* Title:
  * at the center of the page
