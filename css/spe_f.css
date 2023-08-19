@@ -1,15 +1,10 @@
-/*
- * This is for specific format of text and images 
- */
+/* Specific CSS*/
 
-/* Address */
-a:link, a:visited {
-    color: #FBE251;
-    text-decoration: none;}
 
-a:hover, a:active {
-    color: #7DB9DE;
+a{
     text-decoration: none;}
+    a:hover{
+    color: #7DB9DE;}
 
 /* Text Emphasize */
 .emp {
@@ -17,28 +12,24 @@ a:hover, a:active {
     color:#FBE251;}
 
 /* Line Animation */
-li.btn {
-    display: inline;
-    margin-right: 30px;
-    text-align: center;
-    padding: 6px;}
-    /* Underline Animation */
-.hover-under{
+.hunder {
     display: inline-block;
     position: relative;
-    color:#FBE251;}
-.hover-under::after {
+    color: #FBE251;}
+
+.hunder::after {
     content: '';
     position: absolute;
-    width: 90%;
+    width: 100%;
     transform: scaleX(0);
-    height:2px;
+    height: 2px;
     bottom: 0;
-    left:0;
+    left: 0;
     background-color: #7DB9DE;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;}
-.hover-under:hover::after{
+
+.hunder:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;}
 
@@ -48,22 +39,29 @@ ul{
     list-style-type: circle;}
 
 /* Image */
-img.pic {width: 280px;
-    height: 280px;}
+/*
+img{
+margin: 10px;
+padding: 10px;
+width: 280px;
+height: 280px;}
 img.logo{
-    width:30px;
-    height: 30px;
-    margin: 10px;
-    padding: 10px;
-}
+width:30px;
+height: 30px;}
+
+#title{
+width:739px;
+height: 199px;}
+
+*/
+
 
 /* Horizontal Line*/
 hr {
     height: 1px;
     color:#FBE251;
     border-width: 0;
-    background-color: #FBE251;
-}
+    background-color: #FBE251;}
 
 /* Title */
 h4 {
@@ -77,9 +75,8 @@ h4 {
     opacity: 1;
     color:white;
     justify-content: center;
-}
+    }
 
 /* Arrow gif*/
 .arrow{
-    text-align: center;
-}
+    text-align: center;}

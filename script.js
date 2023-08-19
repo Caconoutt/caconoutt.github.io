@@ -1,3 +1,10 @@
+//set the title freeze
+setTimeout(function(){
+  setInterval(function(){
+      $('#title').attr('src',$('#title').attr('src'))
+  },1)
+}, 4000)
+
 //Fade In Animation
 $(window).on("load",function() {
     $(window).scroll(function() {
