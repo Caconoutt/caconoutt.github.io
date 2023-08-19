@@ -5,6 +5,17 @@ setTimeout(function(){
   },1)
 }, 4000)
 
+//image change when scroll
+$(window).scroll(function(){
+  let o=$(window), i=$("body"),t=$(".section"),s=o.scrollTop()+o.height()/3;
+  t.each(function(){
+      $(this).position().top<=s&&$(this).position().top+$(this).height()>s&&(i.
+      removeClass(function(o,i){
+          return i.match(/(^|\s)color-\s+/g)||[].join(" ")}
+      ),$(".section").removeClass("active"),$(this).addClass("active"))}
+  )}
+).scroll();
+
 //Fade In Animation
 $(window).on("load",function() {
     $(window).scroll(function() {

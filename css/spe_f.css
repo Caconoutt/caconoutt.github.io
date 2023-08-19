@@ -77,6 +77,54 @@ h4 {
     justify-content: center;
     }
 
-/* Arrow gif*/
-.arrow{
-    text-align: center;}
+
+/* Image change when scroll*/
+.section{
+    display: flex;
+    min-height: 400px;
+    position: relative;
+    z-index: 1;}
+.section > *{
+    width: 50%;}
+
+.section-img{
+    position: relative;
+    display: flex;}
+
+.section-img-inner{
+    height: 400px;
+    position: fixed;
+    right: 5%;
+    width: 40%;
+    top: 30%;
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    filter: blur(30px);
+    opacity: 0;
+    background-position: 50% 40%;
+    transition: .6s ease, opacity .6s ease, background-position .8s ease;}
+    
+.section-body{
+    display: flex;
+    align-items: center;}
+
+.section-text{
+    width: 50vw;
+    position: relative;
+    right:90%;
+    padding: 5vw;}
+
+.section.active .section-img-inner{
+    opacity: 1;
+    background-position: 50% 50%;
+    filter: blur(0);}
+
+/*h3{
+    position: fixed;
+    top:10%;
+    right: 90%;
+    font-size: 3vw;
+    margin-bottom: 0.5em;
+    margin-top: 0;}*/
