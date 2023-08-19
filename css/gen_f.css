@@ -16,12 +16,11 @@ body{
  */
 #header{
     width: 100%;
-    border: 2px yellow solid;
     height: 16%;
     word-spacing: 16px;
     position: fixed;
     text-align: center;
-    top: 10px;
+    top: 0;
     background-color: #8B81C3;
     display: block;}
 
