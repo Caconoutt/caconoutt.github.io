@@ -65,8 +65,10 @@ hr {
 
 /* Title */
 h4 {
+    position: fixed;
+    right: 90%;
     font-style: italic;
-    color: white;}
+    color: yellow;}
 
 /* Scroll Fade In*/
 .fade {
@@ -105,7 +107,7 @@ h4 {
     opacity: 0;
     background-position: 50% 40%;
     transition: .6s ease, opacity .6s ease, background-position .8s ease;}
-    
+
 .section-body{
     display: flex;
     align-items: center;}
