@@ -65,10 +65,8 @@ hr {
 
 /* Title */
 h4 {
-    position: fixed;
-    right: 90%;
     font-style: italic;
-    color: yellow;}
+    color: pink;}
 
 /* Scroll Fade In*/
 .fade {
