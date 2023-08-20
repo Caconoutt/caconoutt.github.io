@@ -112,11 +112,12 @@ h4 {
     align-items: center;}
 
 .section-text{
+    border: solid;
     font-size: 18px;
     width: 50vw;
     position: relative;
     right:90%;
-    padding: 5vw;}
+    padding: 2vw 5vw 2vw 5vw;}
 
 .section.active .section-img-inner{
     opacity: 1;
