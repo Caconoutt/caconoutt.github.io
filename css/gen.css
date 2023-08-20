@@ -1,0 +1,220 @@
+/* General CSS*/
+html {
+    font-size: 24px;
+    line-height: 1.625;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    background-color: #8B81C3;}
+body{
+    margin: 0;
+    padding: 0;}
+
+/* Header of the page should be:
+ * fixed when user scroll down
+ * text should be centered expect the two logos at the right corner
+ */
+#header{
+    width: 100%;
+    height: 16%;
+    word-spacing: 16px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    background-color: #8B81C3;
+    display: block;}
+
+/* Title:
+ * at the center of the page
+ * go away when scroll
+ */
+#title{
+    width: 100%;
+    /*border: 2px pink solid;*/
+    height:180px;
+    position:absolute;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title img{
+    width: 739px;
+    height: 199px;
+}
+
+
+#logo1{
+    /*border: 1px blue solid;*/
+    height: 35px;
+    width: 35px;
+    
+    position:fixed;
+    right: 10px;
+    top:18px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+#logo1 img{
+    height: 30px;
+    width: 30px;}
+#logo2{
+    /*border: 1px rebeccapurple solid;*/
+    height: 35px;
+    width: 35px;
+    
+    position:fixed;
+    right: 60px;
+    top:18px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+#logo2 img{
+    height: 30px;
+    width: 30px;}
+
+
+#logo3{
+    /*border: 1px skyblue solid;*/
+    height: 35px;
+    width: 140px;
+    
+    position:fixed;
+    left: 25px;
+    top:10px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+#logo3 img{
+    height: 45px;
+    width: 174px;
+}
+
+/* Style of picture inserted on the web
+ * We want the pic to be in a fixed position even when user scrolling page
+ */
+ #pic{
+    /*border: 2px palegoldenrod solid;*/
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    top: 30%;
+    right: 10%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;}
+#pic img{
+    margin: 10px;
+    padding: 10px;
+    width: 280px;
+    height: 280px;}
+/* Style of div.main */
+#main{
+    border: 2px plum solid;
+    font-size: 18px;
+    position: fixed;
+    width: 50%;
+    height: 450px;
+    top: 30%;
+    left: 10%;}
+
+#main2{
+    border: 2px palegreen solid;
+    font-size: 18px;
+    position: fixed;
+    width: 50%;
+    height: 450px;
+    top: 20%;
+    left: 10%;
+    overflow-y: scroll;}
+
+.pic_c{
+    border: 2px palegoldenrod solid;
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    top: 20%;
+    right: 10%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;}
+.pic_c img{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 400px;}
+
+/*The shared feature of scroll for personal and experience page*/
+a{
+    text-decoration: none;}
+    a:hover{
+    color: #7DB9DE;}
+
+/* Text Emphasize */
+.emp {
+    font-style: bold;
+    color:#FBE251;}
+
+/* Line Animation */
+.hunder {
+    display: inline-block;
+    position: relative;
+    color: #FBE251;}
+
+.hunder::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7DB9DE;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;}
+
+.hunder:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;}
+
+/* List */
+ul{
+    top: 10px;
+    list-style-type: circle;}
+
+    /* Horizontal Line*/
+hr {
+    height: 1px;
+    color:#FBE251;
+    border-width: 0;
+    background-color: #FBE251;}
+
+/* Title */
+h4 {
+    font-style: italic;
+    color: white;}
+
+/* Image change when scroll*/
+.section{
+    display: flex;
+    min-height: 150px;
+    position: relative;
+    
+    z-index: 1;}
+.section > *{
+    width: 50%;}
+
+/* Scroll Fade In
+.fade {
+    padding: 6px;
+    background-color: #8B81C3;
+    opacity: 1;
+    color:white;
+    justify-content: center;
+    }
+*/
