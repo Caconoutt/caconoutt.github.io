@@ -89,10 +89,12 @@ h4 {
     width: 50%;}
 
 .section-img{
+    border: 1px red solid;
     position: relative;
     display: flex;}
 
 .section-img-inner{
+    border: 1px blue solid;
     height: 400px;
     position: fixed;
     right: 5%;
