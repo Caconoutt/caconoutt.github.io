@@ -112,6 +112,7 @@ h4 {
     align-items: center;}
 
 .section-text{
+    font-size: 18px;
     width: 50vw;
     position: relative;
     right:90%;
