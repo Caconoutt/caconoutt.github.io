@@ -89,18 +89,17 @@ h4 {
     width: 50%;}
 
 .section-img{
-    border: 1px pink solid;
+    border: solid;
     position: relative;
-    left: 50%;
     display: flex;}
 
 .section-img-inner{
     border: 1px blue solid;
     height: 400px;
-    position: absolute;
+    position: fixed;
     right: 5%;
     width: 40%;
-    top: 40%;
+    top: 30%;
     mix-blend-mode: multiply;
     background-size: contain;
     background-repeat: no-repeat;
