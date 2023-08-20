@@ -114,7 +114,6 @@ body{
     height: 280px;}
 /* Style of div.main */
 #main{
-    border: 2px plum solid;
     font-size: 18px;
     position: fixed;
     width: 50%;
