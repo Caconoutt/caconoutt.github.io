@@ -80,6 +80,7 @@ h4 {
 
 /* Image change when scroll*/
 .section{
+    border: solid;
     display: flex;
     min-height: 400px;
     position: relative;
@@ -116,7 +117,7 @@ h4 {
     width: 50vw;
     position: relative;
     right:90%;
-    padding: 5vw;}
+    padding: 5px;}
 
 .section.active .section-img-inner{
     opacity: 1;
