@@ -83,7 +83,7 @@ h4 {
     display: flex;
     min-height: 150px;
     position: relative;
-    top: 30px;
+    top: 18%;
     z-index: 1;}
 .section > *{
     width: 50%;}
@@ -112,7 +112,7 @@ h4 {
     align-items: center;}
 
 .section-text{
-    border: solid;
+    border: 1px yellow solid;
     font-size: 18px;
     width: 50vw;
     position: relative;
