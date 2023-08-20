@@ -149,10 +149,72 @@ body{
     width: 400px;
     height: 400px;}
 
-/*
-p{
-    font-size: 18px;
-    width: 30%;
+/*The shared feature of scroll for personal and experience page*/
+a{
+    text-decoration: none;}
+    a:hover{
+    color: #7DB9DE;}
+
+/* Text Emphasize */
+.emp {
+    font-style: bold;
+    color:#FBE251;}
+
+/* Line Animation */
+.hunder {
+    display: inline-block;
     position: relative;
-    top: 40%;
-    left: 10%;}*/
+    color: #FBE251;}
+
+.hunder::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7DB9DE;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;}
+
+.hunder:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;}
+
+/* List */
+ul{
+    top: 10px;
+    list-style-type: circle;}
+
+    /* Horizontal Line*/
+hr {
+    height: 1px;
+    color:#FBE251;
+    border-width: 0;
+    background-color: #FBE251;}
+
+/* Title */
+h4 {
+    font-style: italic;
+    color: white;}
+
+/* Image change when scroll*/
+.section{
+    display: flex;
+    min-height: 150px;
+    position: relative;
+    
+    z-index: 1;}
+.section > *{
+    width: 50%;}
+
+/* Scroll Fade In
+.fade {
+    padding: 6px;
+    background-color: #8B81C3;
+    opacity: 1;
+    color:white;
+    justify-content: center;
+    }
+*/

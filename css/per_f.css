@@ -1,0 +1,43 @@
+/* This is only for the personal page*/
+/* Image change when scroll*/
+
+.section-img{
+    border: solid;
+    position: relative;
+    display: flex;}
+
+.section-img-inner{
+    border: 1px yellow solid;
+    height: 400px;
+    position: fixed;
+    right: 5%;
+    width: 40%;
+    top: 30%;
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    filter: blur(30px);
+    opacity: 0;
+    background-position: 50% 40%;
+    transition: .6s ease, opacity .6s ease, background-position .8s ease;}
+
+.section-body{
+    display: flex;
+    align-items: center;}
+
+.section-text{
+    border: 1px yellowgreen solid;
+    font-size: 18px;
+    width: 50vw;
+    position: relative;
+    top: 80px;
+    right:90%;
+    padding: 2vw 5vw 2vw 5vw;}
+
+.section.active .section-img-inner{
+    opacity: 1;
+    background-position: 50% 50%;
+    filter: blur(0);}
+
+
