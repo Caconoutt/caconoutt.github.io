@@ -80,7 +80,6 @@ h4 {
 
 /* Image change when scroll*/
 .section{
-    border: 2px yellow solid;
     display: flex;
     min-height: 400px;
     position: relative;
