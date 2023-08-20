@@ -83,7 +83,7 @@ h4 {
     display: flex;
     min-height: 150px;
     position: relative;
-    top: 18%;
+    
     z-index: 1;}
 .section > *{
     width: 50%;}
@@ -116,6 +116,7 @@ h4 {
     font-size: 18px;
     width: 50vw;
     position: relative;
+    top: 50px;
     right:90%;
     padding: 2vw 5vw 2vw 5vw;}
 
