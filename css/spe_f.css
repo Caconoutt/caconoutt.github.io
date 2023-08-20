@@ -94,10 +94,10 @@ h4 {
     display: flex;}
 
 .section-img-inner{
-    height: 400px;
+    height: 300px;
     position: fixed;
     right: 5%;
-    width: 40%;
+    width: 300px;
     top: 30%;
     mix-blend-mode: multiply;
     background-size: contain;
@@ -117,7 +117,7 @@ h4 {
     width: 50vw;
     position: relative;
     right:90%;
-    padding: 3vw;}
+    padding: 5vw;}
 
 .section.active .section-img-inner{
     opacity: 1;
