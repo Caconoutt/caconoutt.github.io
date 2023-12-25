@@ -35,7 +35,7 @@ $(window).on("load",function() {
   });
 
 function phoneSize(){
-  if ($(window).width() < 1000){
+  if ($(window).width() <= 405){
     console.log('hi');
     
     $('.section').removeClass('section');
