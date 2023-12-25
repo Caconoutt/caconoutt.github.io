@@ -10,6 +10,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="script.js"></script>
+<script src="jquery-3.6.3.min.js"></script>
 
 <body> 
     <div class="section">
@@ -17,13 +18,16 @@
             <img src="images/t_gif.png" />
         </div>
 
-    <div class="section-img">
-        <div class="section-img-inner" style="background-image: url(images/p2.png); height: 300px;"></div>
-    </div>
+        <div class="section-img">
+            <div class="section-img-inner-index" style="background-image: url(images/p2.png); height: 300px;"></div>
+        </div>
 
+        <div id="phone-size-img" class="non-display">
+        <img src="images/p2.png" style="height: 300px;" />
+        </div>
     <div class="section-body" style="margin-top: 50px;">
         <div class="section-text">
-        <p>
+        <p id="context-text">
         I am an undergraduate student at the University of Toronto (UofT) pursuing the degree of 
         Computer Science Specialist, Statistics Major, and Economics Minor. 
         <br />
@@ -49,7 +53,7 @@
     <!--header-->
   
 
-  <div id ="header" style="height: 40px;"> 
+  <div id ="header"> 
       <a href="https://caconoutt.github.io/" class="hunder">Home</a>
       <a href="experience.html" class="hunder" style="word-spacing: 1px;">UofT Experience</a>
       <a href="personal.html" class="hunder">Personal</a>
@@ -73,4 +77,5 @@
 
 </div>
 </body>
+
 </html>

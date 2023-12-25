@@ -15,8 +15,9 @@ body{
  * text should be centered expect the two logos at the right corner
  */
 #header{
+    font-size: 40px;
     width: 100%;
-    height: 16%;
+    height: 60px;
     word-spacing: 16px;
     position: fixed;
     text-align: center;
@@ -162,6 +163,7 @@ a{
 
 /* Line Animation */
 .hunder {
+    font-size: 24px;
     display: inline-block;
     position: relative;
     color: #FBE251;}
@@ -209,6 +211,22 @@ h4 {
 .section > *{
     width: 50%;}
 
+.pMain{
+    margin: 100px !important;
+    margin-top: 50px;
+    padding: 30px;
+    align-items: center;
+    
+}
+.pImgIndex{
+    position: absolute;
+    width: 50%;
+    right: 50%;
+    align-items: center;
+}
+.pImgIndexContainer{
+    position: absolute;
+}
 /* Scroll Fade In
 .fade {
     padding: 6px;
@@ -218,3 +236,58 @@ h4 {
     justify-content: center;
     }
 */
+
+.section-img-inner-index{
+    height: 400px;
+    position: fixed;
+    right: 5%;
+    width: 40%;
+    top: 30%;
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-position: 50% 40%;
+    }
+
+.context-text-margin-top{
+    margin-top: 450px;
+}
+
+div#phone-size-img{
+    position: relative;
+}
+div#phone-size-img >img{
+    position: absolute;
+    right: 20%;
+    transform: translateX(-50%);
+    top: 150px;
+}
+
+
+/* phone-size: Line Animation */
+.hunder-phone {
+    font-size: 24px;
+    
+    position: relative;
+    color: #FBE251;}
+
+.hunder-phone ::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7DB9DE;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;}
+
+.hunder-phone :hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;}
+
+.non-display{
+    display: none;
+}
