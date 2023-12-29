@@ -27,13 +27,12 @@
     align-items: center;}
 
 .section-text{
-    
+    margin-top: -1.5rem;
     font-size: 18px;
     width: 50vw;
     position: relative;
-    top: 80px;
     right:90%;
-    padding: 2vw 5vw 2vw 5vw;}
+    padding: 0vw 5vw 2vw 5vw;}
 
 .section.active .section-img-inner{
     opacity: 1;
@@ -41,8 +40,94 @@
     filter: blur(0);}
 
 
-    @media screen and (min-width: 480px){
-        .section-body{
-            border: black;
-        }
-    }
+/* logos */
+.logo1{
+    /*border: 1px blue solid;*/
+    height: 35px;
+    width: 35px;
+    
+    position:fixed;
+    right: 10px;
+    top:1.4rem;
+
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+
+.logo1 img{
+    height: 30px;
+    width: 30px;}
+.logo2{
+    /*border: 1px rebeccapurple solid;*/
+    height: 35px;
+    width: 35px;
+    
+    position:fixed;
+    right: 60px;
+    top:1.4rem;
+
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+.logo2 img{
+    height: 30px;
+    width: 30px;}
+
+
+.logo3{
+    /*border: 1px skyblue solid;*/
+    height: 35px;
+    width: 140px;
+    
+    position:fixed;
+    left: 25px;
+    top:1.2rem;
+
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+.logo3 img{
+    height: 45px;
+    width: 174px;
+}
+
+.perMain{
+    margin: 10px; 
+    margin-top: 50px;
+    padding: 30px;
+    align-items: center;
+    
+}
+
+.pSectionBody{
+    position: relative;
+}
+
+#personalP1{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    
+}
+
+#personalP3{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 49%;
+}
+
+.phoneText{
+    margin-top: 210px;
+}
+
+#phoneBody{
+    margin-top: 5rem;
+}
+h5 {
+    font-style: italic;
+    color: white;}
+
+.lastText{
+    margin-bottom: 200px;
+}
