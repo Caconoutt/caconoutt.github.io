@@ -1,0 +1,4 @@
+Sitemap: https://caconoutt.github.io/sitemap.xml
+
+User-agent: *
+Disallow:
