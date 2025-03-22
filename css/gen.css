@@ -3,9 +3,9 @@ html {
     font-size: 24px;
     line-height: 1.625;
     color: white;
-    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
-    background-color: #8B81C3;}
+    /* font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #81C7D4;}
 body{
     margin: 0;
     padding: 0;}
@@ -22,7 +22,7 @@ body{
     position: fixed;
     text-align: center;
     top: 0;
-    background-color: #8B81C3;
+    background-color: #81C7D4;
     display: block;}
 
 /* Title:
@@ -158,19 +158,19 @@ body{
 a{
     text-decoration: none;}
     a:hover{
-    color: #7DB9DE;}
+    color: #FBE251;}
 
 /* Text Emphasize */
 .emp {
     font-style: bold;
-    color:#FBE251;}
+    color:#fa4c1c;}
 
 /* Line Animation */
 .hunder {
-    font-size: 24px;
+    font-size: 22px;
     display: inline-block;
     position: relative;
-    color: #FBE251;}
+    color: #fa4c1c;}
 
 .hunder::after {
     content: '';
@@ -180,7 +180,7 @@ a{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #7DB9DE;
+    background-color: #FBE251;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;}
 
@@ -196,9 +196,9 @@ ul{
     /* Horizontal Line*/
 hr {
     height: 1px;
-    color:#FBE251;
+    color:#fa4c1c;
     border-width: 0;
-    background-color: #FBE251;}
+    background-color: #fa4c1c;}
 
 /* Title */
 h4 {
@@ -274,7 +274,7 @@ div#phone-size-img >img{
     font-size: 24px;
     
     position: relative;
-    color: #FBE251;}
+    color: #fa4c1c;}
 
 .hunder-phone ::after {
     content: '';
@@ -284,7 +284,7 @@ div#phone-size-img >img{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #7DB9DE;
+    background-color: #FBE251;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;}
 
