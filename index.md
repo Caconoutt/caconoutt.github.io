@@ -7,8 +7,9 @@ title: Camilla Xue
 
 <img class="profile-picture" src="pic.png">
 
-Hello! I am an undergraduate student at the University of Toronto (UofT) pursuing the degree of 
-Computer Science Specialist and Statistics Major.
+Hello! I am an undergraduate student at the University of Toronto pursuing the degree of Computer Science Specialist and Statistics Major. 
+
+My [CV](https://caconoutt.github.io/resume.pdf) can be found here and you can e-mail me at: [camilla.xue@mail.utoronto.ca](mailto:camilla.xue@mail.utoronto.ca).
 
 --- 
 
@@ -23,8 +24,7 @@ I worked as a research assitant supervised by Niv Dayan on the project minimal p
 --- 
 
 ## Misc.
-In my spare time, I like baking and hitting the gym. I was raised in GuangZhou and a huge fan of Cantonese cuisine. I graduated as a valedictorian for the Class of 2021 from [GUIS](https://www.guiscn.com/). I passed JPLT (Japanese Proficiency Language Test) and received 
-a certificate of N2 with a full mark on Listening. From CAIE, I won the Outstanding Cambridge Learner Award by achieving Top in China for Accounting. 
+In my spare time, I like baking and hitting the gym. I was raised in GuangZhou and a huge fan of Cantonese cuisine. I graduated as a valedictorian for the Class of 2021 from [GUIS](https://www.guiscn.com/). I passed JPLT (Japanese Proficiency Language Test) and received a certificate of N2 with a full mark on Listening. From CAIE, I won the Outstanding Cambridge Learner Award by achieving Top in China for Accounting. 
 
 This website was built using a Jekyll theme by Ankit Sultana found [here](https://github.com/ankitsultana/researcher).
 
