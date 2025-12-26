@@ -1,7 +1,5 @@
-title: Researcher
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
-remote_theme: ankitsultana/researcher@gem
+title: Camilla Xue
+remote_theme: ankitsultana/researcher@gh-pages
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
