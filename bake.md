@@ -65,7 +65,7 @@ Here is a collection of the stuff I have baked and comments. Always let me know 
 --- 
 
 ### Garlic Bread
-<img class="bake-picture" src="bake/IMG_4515.png>
+<img class="bake-picture" src="bake/IMG_4515.png">
 
 --- 
 
