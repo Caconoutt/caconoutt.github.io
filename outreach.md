@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Outreach
 ---
 ## Teaching Assitant
 I have TA'ed STA130 for semesters 2024 Winter, 2025 Fall, 2026 Winter. The TA duty includes: lead weekly tutorial sessions for 25 students, host office hours, grading, exam invigilation.

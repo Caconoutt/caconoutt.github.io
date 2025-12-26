@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Camilla Xue
 ---
 
 ## About Me
