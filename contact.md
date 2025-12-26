@@ -3,12 +3,13 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [camilla.xue@mail.utoronto.ca](mailto:camilla.xue@mail.utoronto.ca)
 
-* Phone: [+91-123123](tel:+91-123123)
+* [LinkedIn](https://www.linkedin.com/in/camilla-xue-0b0118248)
+* [GitHub] (https://github.com/Caconoutt/)
 
 ---
-
+<!-- 
 ## Mailing Address
 
 > 221B, Baker Street
@@ -23,4 +24,4 @@ is_contact: true
 
 1. [Facebook](#)
 2. [Twitter](#)
-3. [Google+](#)
+3. [Google+](#) -->
