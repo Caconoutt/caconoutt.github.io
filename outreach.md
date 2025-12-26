@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-## Job Experience
-### Software Engineer Intern
-
-## Research 
-## Research Assistant
-
 ## Teaching
 ### Teaching Assistant
 ### Teaching Assistant

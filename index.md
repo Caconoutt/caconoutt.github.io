@@ -9,7 +9,16 @@ layout: default
 Hello! I am an undergraduate student at the University of Toronto (UofT) pursuing the degree of 
 Computer Science Specialist and Statistics Major.
 
-<!-- This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher) -->
+--- 
+
+## Job Experience
+I worked as a software engineer intern in [Quanta Technology](https://quanta-technology.com/) from May, 2024 to August, 2025. I contributed as a full-stack developer in an Agile environment to develop a finite-state-control workflow portal, significantly reducing manual overhead and improving client operation accuracy.
+--- 
+
+## Research Experience
+I was a research assitant supervised by Niv Dayan on project minimal perfect hashing on [RocksDB](https://github.com/facebook/rocksdb). I designed, implemented, and benchmarked a minimal perfect hash index integrated within the SST data-block write and read pipelines to optimize index lookups and enhance read throughput.
+
+--- 
 
 ## Misc.
 In my spare time, I like baking and hitting the gym. I was raised in GuangZhou and a huge fan of Cantanese cuisine. I graduated as a valedictorian for the Class of 2021 from [GUIS](https://www.guiscn.com/). I passed JPLT (Japanese Proficiency Language Test) and received 

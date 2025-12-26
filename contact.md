@@ -8,7 +8,6 @@ is_contact: true
 * [LinkedIn](https://www.linkedin.com/in/camilla-xue-0b0118248)
 * [GitHub] (https://github.com/Caconoutt/)
 
----
 <!-- 
 ## Mailing Address
 
