@@ -1,12 +1,25 @@
 /* This is only for the eperience page*/
 /* Image change when scroll*/
 
-.section-img{
+.section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 6vw;
+}
 
-    position: relative;
-    left: 50%;
-    display: flex;}
-
+.section-img {
+  flex: 0 0 40%;
+}
+.section-img img {
+  width: 100%;
+  height: auto;
+  max-width: 420px;
+}
+.section-text {
+  flex: 1;
+  font-size: 18px;
+}
 .section-img-inner{
 
     height: 200px;
@@ -27,14 +40,14 @@
     display: flex;
     align-items: center;}
 
-.section-text{
+/* .section-text{
 
     font-size: 18px;
     width: 50vw;
     position: relative;
     top: 80px;
     right:90%;
-    padding: 2vw 5vw 2vw 5vw;}
+    padding: 2vw 5vw 2vw 5vw;} */
 
 .section.active .section-img-inner{
     opacity: 1;
@@ -141,9 +154,26 @@ h5 {
     transform: translateX(50%);
 }
 
-@media screen and (min-width:1024px){
+/* @media screen and (min-width:1024px){
     div#lastText{
         
         margin-bottom: 5rem;
     }
+} */
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .section-img {
+    width: 100%;
+  }
+
+  .section-img img {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
+
