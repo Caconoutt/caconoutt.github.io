@@ -12,7 +12,7 @@ As part of the [Arrive Ready](https://sidneysmithcommons.artsci.utoronto.ca/arri
 
 ---
 
-## WICS Highschool Mentor
+## WICS Highschool Mentor, 2023 Winter
 I volunteered to be part of the highschool mentorship program hosted by [WICS](https://www.instagram.com/uoftwics/?hl=en) at University of Toronto. I held regular one-on-one mentoring sessions with high school students to provide academic support.
 
 ---
