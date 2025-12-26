@@ -5,7 +5,7 @@ title: Camilla Xue
 
 ## Intro
 
-Here is a collection of the stuff I have baked and comments. Always let me know if there's anything interesting to try!
+Here is a collection of the stuff I have baked. Always let me know if there's anything interesting to try!
 
 --- 
 
@@ -44,7 +44,7 @@ Here is a collection of the stuff I have baked and comments. Always let me know 
 
 --- 
 
-### Newyork Cheese Cake
+### New York Cheese Cake
 <img class="bake-picture" src="bake/IMG_4120.png">
 
 --- 
@@ -79,7 +79,7 @@ Here is a collection of the stuff I have baked and comments. Always let me know 
 
 --- 
 
-### Newyork Cheese Cake 2
+### New York Cheese Cake 2
 <img class="bake-picture" src="bake/IMG_4603.png">
 
 --- 
@@ -126,5 +126,17 @@ Here is a collection of the stuff I have baked and comments. Always let me know 
 
 ### Challah
 <img class="bake-picture" src="bake/IMG_6913.png">
+
+--- 
+
+
+### Scone
+<img class="bake-picture" src="bake/IMG_4862.png">
+
+--- 
+
+
+### Chocolate Babka
+<img class="bake-picture" src="bake/IMG_5139.png">
 
 --- 
