@@ -9,6 +9,7 @@ Here is a collection of the stuff I have baked and comments. Always let me know 
 
 --- 
 
-### coockie crumble brownie
-<img class="profile-picture" src="bake/IMG_3136.jpg">
-test?
+### coockie-crumble top brownie
+<img class="bake-picture" src="bake/IMG_3136.jpg">
+Taste pretty good
+Rating: ★★★☆☆
