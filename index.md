@@ -9,7 +9,7 @@ title: Camilla Xue
 
 Hello! I am an undergraduate student at the University of Toronto pursuing the degree of Computer Science Specialist and Statistics Major. 
 
-My [CV](https://caconoutt.github.io/resume.pdf) can be found here and you can e-mail me at: [camilla.xue@mail.utoronto.ca](mailto:camilla.xue@mail.utoronto.ca).
+My CV can be found [here](https://caconoutt.github.io/resume.pdf) and you can e-mail me at: [camilla.xue@mail.utoronto.ca](mailto:camilla.xue@mail.utoronto.ca).
 
 --- 
 

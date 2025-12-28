@@ -9,23 +9,19 @@ Here is a collection of the stuff I have baked. Always let me know if there's an
 
 --- 
 
-### Coockies-crumble Top Brownie
-<img class="bake-picture" src="bake/IMG_3136.jpg">
+### Coockies-crumble Top Brownie <img class="bake-picture" src="bake/IMG_3136.jpg">
 
 --- 
 
-### Chocolate Chip Cookies
-<img class="bake-picture" src="bake/IMG_3139.png">
+### Chocolate Chip Cookies <img class="bake-picture" src="bake/IMG_3139.png">
 
 --- 
 
-### Red Bean Bun
-<img class="bake-picture" src="bake/IMG_3343.png">
+### Red Bean Bun <img class="bake-picture" src="bake/IMG_3343.png">
 
 --- 
 
-### Sausage Bun
-<img class="bake-picture" src="bake/IMG_3382.png">
+### Sausage Bun <img class="bake-picture" src="bake/IMG_3382.png">
 
 --- 
 
