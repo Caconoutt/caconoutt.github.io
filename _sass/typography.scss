@@ -68,9 +68,9 @@
         //     padding: 0;
         //     margin: 0;
         // }
-        height: 1.4em;  
-        width: auto;
-        margin-left: 12px;
+        height: $bake-image-size;
+        width: $bake-image-size;
+        margin-left: -10px;
         flex-shrink: 0;
         @media (max-width: $small-width) {
             img {
