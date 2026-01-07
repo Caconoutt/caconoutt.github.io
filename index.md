@@ -19,7 +19,7 @@ I worked as a software engineer intern in [Quanta Technology](https://quanta-tec
 --- 
 
 ## Research Experience
-I worked as a research assitant supervised by Niv Dayan on the project minimal perfect hashing on [RocksDB](https://github.com/facebook/rocksdb). I designed, implemented, and benchmarked a minimal perfect hash index integrated within the SST data-block write and read pipelines to optimize index lookups and enhance read throughput.
+I worked as a research assitant supervised by Niv Dayan on the project minimal perfect hashing on [RocksDB](https://github.com/Caconoutt/rocksdb-mph). I designed, implemented, and benchmarked a minimal perfect hash index integrated within the SST data-block write and read pipelines to optimize index lookups and enhance read throughput.
 
 --- 
 
