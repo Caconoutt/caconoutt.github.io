@@ -14,12 +14,14 @@ My CV can be found [here](https://caconoutt.github.io/resume.pdf) and you can e-
 --- 
 
 ## Job Experience
-I worked as a software engineer intern in [Quanta Technology](https://quanta-technology.com/) from May, 2024 to August, 2025. I contributed as a full-stack developer in an Agile environment to develop a finite-state-control workflow portal, significantly reducing manual overhead and improving client operation accuracy.
+* May 2024 - August 2025: software engineer intern in [Quanta Technology](https://quanta-technology.com/), working as a full-stack developer on a finite-state control workflow platform.
 
 --- 
 
 ## Research Experience
-I worked as a research assitant supervised by Niv Dayan on the project minimal perfect hashing on [RocksDB](https://github.com/Caconoutt/rocksdb-mph). I designed, implemented, and benchmarked a minimal perfect hash index integrated within the SST data-block write and read pipelines to optimize index lookups and enhance read throughput.
+* May 2026 - Present: research assitant supervised by Professor Alex Mariakakis on computational health and interaction on AtriumDB for SickKids.
+* September 2025 - December 2025: research assitant supervised by Professor Niv Dayan on high performance data structure on [RocksDB](https://caconoutt.github.io/rocksDB_MPH.pdf). 
+<!-- I designed, implemented, and benchmarked a minimal perfect hash index integrated within the SST data-block write and read pipelines to optimize index lookups and enhance read throughput. -->
 
 --- 
 
